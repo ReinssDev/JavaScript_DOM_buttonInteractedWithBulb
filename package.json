@@ -1,0 +1,27 @@
+{
+  "name": "cetrekanlampu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm install tailwindcss @tailwindcss/cli",
+    "dev": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+    "minify": "npx @tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/interactBulb.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReinssDev/JavaScript_DOM_buttonInteractedWithBulb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReinssDev/JavaScript_DOM_buttonInteractedWithBulb/issues"
+  },
+  "homepage": "https://github.com/ReinssDev/JavaScript_DOM_buttonInteractedWithBulb#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}

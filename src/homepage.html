@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cetrekan Lampu</title>
-    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="/src/styles/interactBulb.css">
 </head>
-<body>
+<body class="box-border bg-blue-400">
     <main>
-        <img src="/src/assets/img/off.gif" alt="" id="bulb">
-        <h1>Cetrekan Lampu On / Off</h1>
-        <button id="btn-on">Nyalakan Lampu</button>
-        <button id="btn-off">Matikan Lampu</button>
+        <div class="max-w-2xl mx-auto my-40 grid grid-cols-3 gap-10 bg-white rounded-lg p-5">
+            <!-- Lampu 1 -->
+            <div class=" text-center">
+                <img src="/src/assets/img/off.gif" alt="" class="w-[100px] mx-auto bulb" id="bulb1">
+                <button id="btn-on" class="button-on border block w-full py-2 px-3 rounded-lg bg-green-400 text-white hover:bg-green-600 cursor-pointer">Nyalakan Lampu</button>
+                <button id="btn-off" class="button-off border mt-3 block w-full py-2 px-3 rounded-lg bg-red-400 text-white hover:bg-red-600 cursor-pointer">Matikan Lampu</button>
+            </div>
+            <!-- Lampu 2 -->
+            <div class=" text-center">
+                <img src="/src/assets/img/off.gif" alt="" class="w-[100px] mx-auto bulb" id="bulb2">
+                <button id="btn-on" class="button-on border block w-full py-2 px-3 rounded-lg bg-green-400 text-white hover:bg-green-600 cursor-pointer">Nyalakan Lampu</button>
+                <button id="btn-off" class="button-off border mt-3 block w-full py-2 px-3 rounded-lg bg-red-400 text-white hover:bg-red-600 cursor-pointer">Matikan Lampu</button>
+            </div>
+            <!-- Lampu 3 -->
+            <div class=" text-center">
+                <img src="/src/assets/img/off.gif" alt="" class="w-[100px] mx-auto bulb" id="bulb3">
+                <button id="btn-on" class="button-on border block w-full py-2 px-3 rounded-lg bg-green-400 text-white hover:bg-green-600 cursor-pointer">Nyalakan Lampu</button>
+                <button id="btn-off" class="button-off border mt-3 block w-full py-2 px-3 rounded-lg bg-red-400 text-white hover:bg-red-600 cursor-pointer">Matikan Lampu</button>
+            </div>
+        </div>
     </main>
-    <script src="/src/script/script.js"></script>
+    <script type="module" src="/src/script/app.js"></script>
 </body>
 </html>
